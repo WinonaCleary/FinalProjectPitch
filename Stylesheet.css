@@ -1,0 +1,257 @@
+html{
+    margin: 0px;
+    background-color: aliceblue;
+    height: 150%;
+    font-family: Lato, sans-serif;
+}
+
+nav{
+    background-color: #397249;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0px;
+}
+p{
+    font-size: 16pt;
+}
+
+.Container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.NavLogo{
+    padding-top: 10px;
+    margin: 0px;
+    padding-left: 18px;
+}
+
+.Nav{
+    padding-top: 20px;
+    margin: 0px;
+    margin-right: 3%;
+    padding-left: 18px;
+}
+
+.MenuButton{
+    height: 100%;
+    font-size: 16pt;
+    color: white;
+    padding: 6px;
+    max-width: 150px;
+    cursor: pointer;
+    margin-left: 10px;
+    alignment: center;
+    padding-top: -25px;
+}
+
+.NavMenu{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    display: none;
+    background-color: #F6E4CC;
+    border-radius: 10px;
+    margin-left: 89%;
+    z-index: 1000;
+}
+
+
+.Splash{
+    width: 100%;
+    background-image: url("Splash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-flow: wrap;
+    margin: auto;
+    height: 300px;
+    justify-content: center;
+}
+
+h1{
+    font-size: 34pt;
+    justify-content: center;
+    color: white;
+    padding-bottom: 0px;
+
+}
+
+h2{
+    font: 24 pt;
+    justify-content: center;
+    color: black;
+
+}
+
+a{
+    margin: 5px;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color: mediumseagreen;
+}
+
+.Container2{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.Container3{
+    align-content: center;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    position: center;
+}
+
+.Button{
+    background-color: #F6E4CC;
+    width: 300px;
+    height: auto;
+    padding: 2px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+
+.GreenContain {
+    background-color: #9CB770;
+    border: white 2px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+    width: 70%;
+}
+
+.BlueContain {
+    background-color: #C7E1BA;
+    border: white 2px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+    width: 30%;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: black;
+    font-size: 20pt;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: #bbbbbb;
+    margin-bottom: 0px;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.footer{
+    width: 100%;
+    background-color: #397249;
+    position: fixed;
+    bottom: 0;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+
+
+
+@media screen and (max-device-width: 630px){
+    .Container {
+        flex-flow: wrap;
+        width: 100%;
+    }
+    }
+
